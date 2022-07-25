@@ -1,0 +1,22 @@
+{
+  "name": "sapui5walkthrough",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "devDependencies": {
+    "@ui5/cli": "2.11.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/parliz/sapui5Walkthrough.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/parliz/sapui5Walkthrough/issues"
+  },
+  "homepage": "https://github.com/parliz/sapui5Walkthrough#readme"
+}
