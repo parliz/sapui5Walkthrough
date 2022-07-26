@@ -3,22 +3,28 @@
    xmlns="sap.m"
    xmlns:mvc="sap.ui.core.mvc"
   displayBlock="true">
+  <Shell appWidthLimited="true" backgroundColor="white">
    <App>
       <pages>
          <Page title="{i18n>homePageTitle}">
             <content>
                <Panel
-                  headerText="{i18n>helloPanelTitle}" expanded="true">
+                  headerText="{i18n>helloPanelTitle}" expandable="true"
+                  class="sapUiResponsiveMargin"
+							width="auto">
                   <content>
-
                      <Button
                         text="{i18n>showHelloButtonText}"
-                        press=".onShowHello"/>
+                        press=".onShowHello"
+                        class="sapUiLargeMarginTopBottom"/>
                      <Input
                         value="{/recipient/name}"
                         description="Hello {/recipient/name}"
                         valueLiveUpdate="true"
                         width="60%"/>
+                        <Text
+									text="Hello {/recipient/name}"
+									class="sapUiSmallMargin"/>
                   </content>
                </Panel>
             </content>
@@ -37,4 +43,5 @@
          </Page>
       </pages>
    </App>
+   </Shell>
 </mvc:View>
