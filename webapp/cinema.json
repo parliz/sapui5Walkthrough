@@ -1,0 +1,551 @@
+{
+    "films": {
+        "film": [
+            {
+                "name": "Доктор Стрендж",
+                "description": "Продолжение магических приключений Доктора Стрэнджа в новых мистических мирах и в противостоянии с новыми врагами.",
+                "duration": "2ч 6мин",
+                "cinemas": {
+                    "cinema": [
+                        {
+                            "cinemaName": "Синема 5",
+                            "cinemaAddress": "пр-т. Хусаина Ямашева, 46",
+                            "screening": [
+                                {
+                                    "day": "2022-07-26",
+                                    "startTime": "15:00",
+                                    "room": "Зал №1",
+                                    "place": [
+                                        {
+                                            "row": "1",
+                                            "seat": "1",
+                                            "price": "250",
+                                            "taken": "false"
+                                        },
+                                        {
+                                            "row": "1",
+                                            "seat": "2",
+                                            "price": "250",
+                                            "taken": "false"
+                                        },
+                                        {
+                                            "row": "1",
+                                            "seat": "3",
+                                            "price": "250",
+                                            "taken": "false"
+                                        },
+                                        {
+                                            "row": "2",
+                                            "seat": "1",
+                                            "price": "300",
+                                            "taken": "false"
+                                        },
+                                        {
+                                            "row": "2",
+                                            "seat": "2",
+                                            "price": "300",
+                                            "taken": "false"
+                                        },
+                                        {
+                                            "row": "2",
+                                            "seat": "3",
+                                            "price": "300",
+                                            "taken": "false"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "day": "2022-07-27",
+                                    "startTime": "10:40",
+                                    "room": "Зал №2",
+                                    "place": [
+                                        {
+                                            "row": "1",
+                                            "seat": "1",
+                                            "price": "250",
+                                            "taken": "false"
+                                        },
+                                        {
+                                            "row": "1",
+                                            "seat": "2",
+                                            "price": "250",
+                                            "taken": "false"
+                                        },
+                                        {
+                                            "row": "1",
+                                            "seat": "3",
+                                            "price": "250",
+                                            "taken": "false"
+                                        },
+                                        {
+                                            "row": "2",
+                                            "seat": "1",
+                                            "price": "350",
+                                            "taken": "false"
+                                        },
+                                        {
+                                            "row": "2",
+                                            "seat": "2",
+                                            "price": "350",
+                                            "taken": "false"
+                                        },
+                                        {
+                                            "row": "2",
+                                            "seat": "3",
+                                            "price": "350",
+                                            "taken": "false"
+                                        },
+                                        {
+                                            "row": "3",
+                                            "seat": "1",
+                                            "price": "300",
+                                            "taken": "false"
+                                        },
+                                        {
+                                            "row": "3",
+                                            "seat": "2",
+                                            "price": "300",
+                                            "taken": "false"
+                                        },
+                                        {
+                                            "row": "3",
+                                            "seat": "3",
+                                            "price": "300",
+                                            "taken": "false"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "cinemaName": "Каро",
+                            "cinemaAddress": "ул. Петербургская, 1",
+                            "screening": {
+                                "day": "2022-07-26",
+                                "startTime": "20:00",
+                                "room": "Зал №2",
+                                "place": [
+                                    {
+                                        "row": "1",
+                                        "seat": "1",
+                                        "price": "250",
+                                        "taken": "false"
+                                    },
+                                    {
+                                        "row": "1",
+                                        "seat": "2",
+                                        "price": "250",
+                                        "taken": "false"
+                                    },
+                                    {
+                                        "row": "1",
+                                        "seat": "3",
+                                        "price": "250",
+                                        "taken": "false"
+                                    },
+                                    {
+                                        "row": "2",
+                                        "seat": "1",
+                                        "price": "300",
+                                        "taken": "false"
+                                    },
+                                    {
+                                        "row": "2",
+                                        "seat": "2",
+                                        "price": "300",
+                                        "taken": "false"
+                                    },
+                                    {
+                                        "row": "2",
+                                        "seat": "3",
+                                        "price": "300",
+                                        "taken": "false"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "name": "Кощей. Похититель невест.",
+                "description": "Вечно молодой и всегда с иголочки одетый Кощей вот \n        уже триста лет почему-то не может найти себе невесту. Он и \n        запугивал, и похищал, и превращал в лягушек разнообразных царевен, \n        но эти ухаживания так и не помогли принцу тьмы. Тем временем \n        прекрасная богатырша Варвара только и делает, что отбивается на \n        арене от женихов, позарившихся на ее приданое.",
+                "duration": "1ч 20мин",
+                "cinemas": {
+                    "cinema": [
+                        {
+                            "cinemaName": "Синема 5",
+                            "cinemaAddress": "пр-т. Хусаина Ямашева, 46",
+                            "screening": {
+                                "day": "2022-07-26",
+                                "startTime": "11:25",
+                                "room": "Зал №1",
+                                "place": [
+                                    {
+                                        "row": "1",
+                                        "seat": "1",
+                                        "price": "200",
+                                        "taken": "false"
+                                    },
+                                    {
+                                        "row": "1",
+                                        "seat": "2",
+                                        "price": "200",
+                                        "taken": "false"
+                                    },
+                                    {
+                                        "row": "1",
+                                        "seat": "3",
+                                        "price": "200",
+                                        "taken": "false"
+                                    },
+                                    {
+                                        "row": "2",
+                                        "seat": "1",
+                                        "price": "250",
+                                        "taken": "false"
+                                    },
+                                    {
+                                        "row": "2",
+                                        "seat": "2",
+                                        "price": "250",
+                                        "taken": "false"
+                                    },
+                                    {
+                                        "row": "2",
+                                        "seat": "3",
+                                        "price": "250",
+                                        "taken": "false"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "cinemaName": "Каро",
+                            "cinemaAddress": "ул. Петербургская, 1",
+                            "screening": {
+                                "day": "2022-07-26",
+                                "startTime": "16:30",
+                                "room": "Зал №2",
+                                "place": [
+                                    {
+                                        "row": "1",
+                                        "seat": "1",
+                                        "price": "250",
+                                        "taken": "false"
+                                    },
+                                    {
+                                        "row": "1",
+                                        "seat": "2",
+                                        "price": "250",
+                                        "taken": "false"
+                                    },
+                                    {
+                                        "row": "1",
+                                        "seat": "3",
+                                        "price": "250",
+                                        "taken": "false"
+                                    },
+                                    {
+                                        "row": "2",
+                                        "seat": "1",
+                                        "price": "300",
+                                        "taken": "false"
+                                    },
+                                    {
+                                        "row": "2",
+                                        "seat": "2",
+                                        "price": "300",
+                                        "taken": "false"
+                                    },
+                                    {
+                                        "row": "2",
+                                        "seat": "3",
+                                        "price": "300",
+                                        "taken": "false"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "cinemaName": "Киномакс",
+                            "cinemaAddress": "пр-т. Ибрагимова, д. 56",
+                            "screening": [
+                                {
+                                    "day": "2022-07-26",
+                                    "startTime": "9:45",
+                                    "room": "Зал №2",
+                                    "place": [
+                                        {
+                                            "row": "1",
+                                            "seat": "1",
+                                            "price": "200",
+                                            "taken": "false"
+                                        },
+                                        {
+                                            "row": "1",
+                                            "seat": "2",
+                                            "price": "200",
+                                            "taken": "false"
+                                        },
+                                        {
+                                            "row": "1",
+                                            "seat": "3",
+                                            "price": "200",
+                                            "taken": "false"
+                                        },
+                                        {
+                                            "row": "2",
+                                            "seat": "1",
+                                            "price": "250",
+                                            "taken": "false"
+                                        },
+                                        {
+                                            "row": "2",
+                                            "seat": "2",
+                                            "price": "250",
+                                            "taken": "false"
+                                        },
+                                        {
+                                            "row": "2",
+                                            "seat": "3",
+                                            "price": "250",
+                                            "taken": "false"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "day": "2022-07-27",
+                                    "startTime": "10:00",
+                                    "room": "Зал №3",
+                                    "place": [
+                                        {
+                                            "row": "1",
+                                            "seat": "1",
+                                            "price": "250",
+                                            "taken": "false"
+                                        },
+                                        {
+                                            "row": "1",
+                                            "seat": "2",
+                                            "price": "250",
+                                            "taken": "false"
+                                        },
+                                        {
+                                            "row": "1",
+                                            "seat": "3",
+                                            "price": "250",
+                                            "taken": "false"
+                                        },
+                                        {
+                                            "row": "2",
+                                            "seat": "1",
+                                            "price": "350",
+                                            "taken": "false"
+                                        },
+                                        {
+                                            "row": "2",
+                                            "seat": "2",
+                                            "price": "350",
+                                            "taken": "false"
+                                        },
+                                        {
+                                            "row": "2",
+                                            "seat": "3",
+                                            "price": "350",
+                                            "taken": "false"
+                                        },
+                                        {
+                                            "row": "3",
+                                            "seat": "1",
+                                            "price": "300",
+                                            "taken": "false"
+                                        },
+                                        {
+                                            "row": "3",
+                                            "seat": "2",
+                                            "price": "300",
+                                            "taken": "false"
+                                        },
+                                        {
+                                            "row": "3",
+                                            "seat": "3",
+                                            "price": "300",
+                                            "taken": "false"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "name": "Топ Ган: Мэверик",
+                "description": "Пит Митчелл по прозвищу Мэверик более 30 лет остается одним из лучших пилотов ВМФ: бесстрашный летчик-испытатель, он расширяет границы возможного и старательно избегает повышения в звании, которое заставило бы его приземлиться навсегда. Приступив к подготовке отряда выпускников «Топ Ган» для специальной миссии, подобной которой никогда не было, Мэверик встречает лейтенанта Брэдли Брэдшоу, сына своего покойного друга, лейтенанта Ника Брэдшоу.",
+                "duration": "2ч 10мин",
+                "cinemas": {
+                    "cinema": [
+                        {
+                            "cinemaName": "Киномакс",
+                            "cinemaAddress": "пр-т. Ибрагимова, д. 56",
+                            "screening": [
+                                {
+                                    "day": "2022-07-26",
+                                    "startTime": "12:00",
+                                    "room": "Зал №1",
+                                    "place": [
+                                        {
+                                            "row": "1",
+                                            "seat": "1",
+                                            "price": "250",
+                                            "taken": "false"
+                                        },
+                                        {
+                                            "row": "1",
+                                            "seat": "2",
+                                            "price": "250",
+                                            "taken": "false"
+                                        },
+                                        {
+                                            "row": "1",
+                                            "seat": "3",
+                                            "price": "250",
+                                            "taken": "false"
+                                        },
+                                        {
+                                            "row": "2",
+                                            "seat": "1",
+                                            "price": "300",
+                                            "taken": "false"
+                                        },
+                                        {
+                                            "row": "2",
+                                            "seat": "2",
+                                            "price": "300",
+                                            "taken": "false"
+                                        },
+                                        {
+                                            "row": "2",
+                                            "seat": "3",
+                                            "price": "300",
+                                            "taken": "false"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "day": "2022-07-27",
+                                    "startTime": "14:15",
+                                    "room": "Зал №3",
+                                    "place": [
+                                        {
+                                            "row": "1",
+                                            "seat": "1",
+                                            "price": "250",
+                                            "taken": "false"
+                                        },
+                                        {
+                                            "row": "1",
+                                            "seat": "2",
+                                            "price": "250",
+                                            "taken": "false"
+                                        },
+                                        {
+                                            "row": "1",
+                                            "seat": "3",
+                                            "price": "250",
+                                            "taken": "false"
+                                        },
+                                        {
+                                            "row": "2",
+                                            "seat": "1",
+                                            "price": "350",
+                                            "taken": "false"
+                                        },
+                                        {
+                                            "row": "2",
+                                            "seat": "2",
+                                            "price": "350",
+                                            "taken": "false"
+                                        },
+                                        {
+                                            "row": "2",
+                                            "seat": "3",
+                                            "price": "350",
+                                            "taken": "false"
+                                        },
+                                        {
+                                            "row": "3",
+                                            "seat": "1",
+                                            "price": "300",
+                                            "taken": "false"
+                                        },
+                                        {
+                                            "row": "3",
+                                            "seat": "2",
+                                            "price": "300",
+                                            "taken": "false"
+                                        },
+                                        {
+                                            "row": "3",
+                                            "seat": "3",
+                                            "price": "300",
+                                            "taken": "false"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "cinemaName": "Каро",
+                            "cinemaAddress": "ул. Петербургская, 1",
+                            "screening": {
+                                "day": "2022-07-26",
+                                "startTime": "11:30",
+                                "room": "Зал №2",
+                                "place": [
+                                    {
+                                        "row": "1",
+                                        "seat": "1",
+                                        "price": "250",
+                                        "taken": "false"
+                                    },
+                                    {
+                                        "row": "1",
+                                        "seat": "2",
+                                        "price": "250",
+                                        "taken": "false"
+                                    },
+                                    {
+                                        "row": "1",
+                                        "seat": "3",
+                                        "price": "250",
+                                        "taken": "false"
+                                    },
+                                    {
+                                        "row": "2",
+                                        "seat": "1",
+                                        "price": "300",
+                                        "taken": "false"
+                                    },
+                                    {
+                                        "row": "2",
+                                        "seat": "2",
+                                        "price": "300",
+                                        "taken": "false"
+                                    },
+                                    {
+                                        "row": "2",
+                                        "seat": "3",
+                                        "price": "300",
+                                        "taken": "false"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}
