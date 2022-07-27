@@ -19,8 +19,18 @@ controllerName="sap.ui.demo.walkthrough.controller.InvoiceList"
                }
             }"
             numberState="{= ${invoice>ExtendedPrice/0} > 50 ? 'Error' : 'Success' }"
-            intro="{= (${invoice>ExtendedPrice/0} * ${invoice>Quantity}).toFixed(2)} {invoice>ExtendedPrice/1}"
-            />
+            intro="{
+               parts:[{path:'invoice>ExtendedPrice/0'},{path:'invoice>Quantity'},{path:'invoice>ExtendedPrice/1'}],
+                    formatter: '.formatter.fullPrice'
+            }"
+            >
+				<firstStatus>
+					<ObjectStatus text="{
+						path: 'invoice>Status',
+						formatter: '.formatter.statusText'
+					}"/>
+				</firstStatus>
+			</ObjectListItem>
       </items>
    </List>
 </mvc:View>
