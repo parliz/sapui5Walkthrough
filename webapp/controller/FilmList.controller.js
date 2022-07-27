@@ -7,7 +7,7 @@ sap.ui.define([
 ], function (Controller, JSONModel, formatter, Filter, FilterOperator) {
 	"use strict";
 
-	return Controller.extend("sap.ui.demo.walkthrough.controller.InvoiceList", {
+	return Controller.extend("sap.ui.demo.walkthrough.controller.FilmList", {
         formatter: formatter,
 		onInit : function () {
 			var oViewModel = new JSONModel({
@@ -21,11 +21,11 @@ sap.ui.define([
 			var aFilter = [];
 			var sQuery = oEvent.getParameter("query");
 			if (sQuery) {
-				aFilter.push(new Filter("ProductName", FilterOperator.Contains, sQuery));
+				aFilter.push(new Filter("FilmName", FilterOperator.Contains, sQuery));
 			}
 
 			// filter binding
-			var oList = this.byId("invoiceList");
+			var oList = this.byId("filmList");
 			var oBinding = oList.getBinding("items");
 			var aDefaultFilter = oList.getBindingInfo("items").filters;
             oBinding.filter(aDefaultFilter);

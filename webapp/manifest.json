@@ -10,8 +10,8 @@
         "version": "1.0.0"
       },
       "dataSources": {
-        "invoiceRemote": {
-          "uri": "/V2/Northwind/Northwind.svc",
+        "filmRemote": {
+          "uri": "/sap/opu/odata/sap/ZCINEMA_03_SRV",         
           "type": "OData",
           "settings": {
             "odataVersion": "2.0"
@@ -49,8 +49,11 @@
             "supportedLocales": [""],
             "fallbackLocale": ""
           }
-        },      "invoice": {
-          "dataSource": "invoiceRemote"
+        },      "film": {
+          "dataSource": "filmRemote",
+          "settings": {
+            "useBatch":false
+            }
           } 
       },     
       "resources": {

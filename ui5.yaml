@@ -9,8 +9,9 @@ server:
       configuration:
         ignoreCertError: true # If set to true, certificate errors will be ignored. E.g. self-signed certificates will be accepted
         backend:
-          - path: /V2/Northwind
-            url: https://services.odata.org
+          - path: /sap/opu/odata/sap/ZCINEMA_03_SRV
+            url: https://s4hana.local.net:44300
+          
         ui5:
           path:
             - /resources
