@@ -5,6 +5,7 @@
             <Button text="{i18n>showHelloButtonText}" press=".onShowHello" class="myCustomButton" />
                 <Button
                 id="helloDialogButton"
+                icon="sap-icon://attachment"
                 text="{i18n>openDialogButtonText}"
                 press=".onOpenDialog"
                 class="sapUiSmallMarginEnd"/>
