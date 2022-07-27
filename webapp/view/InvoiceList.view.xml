@@ -1,0 +1,32 @@
+<mvc:View
+controllerName="sap.ui.demo.walkthrough.controller.InvoiceList"
+   xmlns="sap.m"
+   xmlns:mvc="sap.ui.core.mvc">
+   <List
+      headerText="{i18n>invoiceListTitle}"
+      class="sapUiResponsiveMargin"
+      width="auto"
+      items="{invoice>/Invoices}" >
+      <items>
+         <ObjectListItem
+            icon="{path: 'invoice>Icon'}"
+            title="{invoice>Quality}{invoice>Quantity} x {invoice>ProductName} {invoice>ExtendedPrice}"
+            number="{
+               path: 'invoice>ExtendedPrice',
+               type: 'sap.ui.model.type.Currency',
+               formatOptions: {
+                  showMeasure: true
+               }
+            }"
+            intro="{path: 'invoice>ShippedDate',
+               type:'sap.ui.model.type.Date',
+               formatOptions:{
+                  source: {
+                     pattern:'yyyy-MM-ddT00:00:00'
+                  },
+                  pattern: 'yyyy'
+               }}"
+            />
+      </items>
+   </List>
+</mvc:View>

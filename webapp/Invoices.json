@@ -1,0 +1,50 @@
+{
+    "Quality":"Good",
+    "Invoices": [
+      {
+        "ProductName": "Pineapple",
+        "Quantity": 21,
+        "ExtendedPrice": [87.2,"RUB"],
+        "ShipperName": "Fun Inc.",
+        "ShippedDate": "2015-04-01T00:00:00",
+        "Status": "A",
+        "Icon": "sap-icon://add-photo"
+      },
+      {
+        "ProductName": "Milk",
+        "Quantity": 4,
+        "ExtendedPrice": [10,"EUR"],
+        "ShipperName": "ACME",
+        "ShippedDate": "2015-02-18T00:00:00",
+        "Status": "B",
+        "Icon": "sap-icon://arobase"
+      },
+      {
+        "ProductName": "Canned Beans",
+        "Quantity": 3,
+        "ExtendedPrice": [6.85,"EUR"],
+        "ShipperName": "ACME",
+        "ShippedDate": "2015-03-02T00:00:00",
+        "Status": "B",
+        "Icon": "sap-icon://batch-payments"
+      },
+      {
+        "ProductName": "Salad",
+        "Quantity": 2,
+        "ExtendedPrice": [8.8,"RUB"],
+        "ShipperName": "ACME",
+        "ShippedDate": "2015-04-12T00:00:00",
+        "Status": "C",
+        "Icon":"sap-icon://blur"
+      },
+      {
+        "ProductName": "Bread",
+        "Quantity": 1,
+        "ExtendedPrice": [2.71,"RUB"],
+        "ShipperName": "Fun Inc.",
+        "ShippedDate": "2015-01-27T00:00:00",
+        "Status": "A",
+        "Icon":"sap-icon://call"
+      }
+    ]
+  }
