@@ -1,0 +1,39 @@
+<mvc:View controllerName="sap.ui.demo.walkthrough.controller.FilmList" xmlns="sap.m" xmlns:mvc="sap.ui.core.mvc">
+   <List id="filmList" headerText="{i18n>filmListTitle}" class="sapUiResponsiveMargin" width="auto" items="{
+         path : 'film>/filmSet',
+         sorter : {
+            path : 'FilmName',
+				group : true
+         }
+      }">
+      <headerToolbar>
+         <Toolbar>
+            <Title text="{i18n>filmListTitle}" />
+            <ToolbarSpacer />
+            <SearchField width="50%" search=".onFilterInvoices" />
+         </Toolbar>
+      </headerToolbar>
+      <items>
+         <ObjectListItem icon="{path: 'film>Icon'}" 
+            title=" {film>FilmDescription}" number="{
+               path: 'film>ExtendedPrice',
+               type: 'sap.ui.model.type.Currency',
+               formatOptions: {
+                  showMeasure: true
+               }
+            }" numberState="{= ${invoice>ExtendedPrice/0} > 50 ? 'Error' : 'Success' }" intro="{
+               parts:[{path:'invoice>ExtendedPrice/0'},{path:'invoice>Quantity'},{path:'invoice>ExtendedPrice/1'}],
+                    formatter: '.formatter.fullPrice'
+            }"
+            type="Navigation"
+					press="onPress">
+            <firstStatus>
+               <ObjectStatus text="{
+						path: 'film>FilmDuration',
+						formatter: '.formatter.statusText'
+					}" />
+            </firstStatus>
+         </ObjectListItem> 
+      </items>
+   </List>
+</mvc:View>
