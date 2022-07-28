@@ -87,6 +87,16 @@
 					"pattern": "detail/{invoicePath}",
 					"name": "detail",
 					"target": "detail"
+				},
+				{
+					"pattern": "",
+					"name": "hellopanel",
+					"target": "hellopanel"
+				},
+				{
+					"pattern": "window",
+					"name": "window",
+					"target": "window"
 				}
 			],
 			"targets": {
@@ -97,6 +107,14 @@
 				"detail": {
 					"id": "detail",
 					"name": "Detail"
+				},
+				"hellopanel": {
+					"id": "hellopanel",
+					"name": "HelloPanel"
+				},
+				"window": {
+					"id": "window",
+					"name": "Window"
 				}
 			}
 		}

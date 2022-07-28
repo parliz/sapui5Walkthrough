@@ -1,7 +1,11 @@
 <mvc:View
 controllerName="sap.ui.demo.walkthrough.controller.Detail"
 xmlns="sap.m"
-xmlns:mvc="sap.ui.core.mvc">
+xmlns:mvc="sap.ui.core.mvc"
+ xmlns:core="sap.ui.core"
+ displayBlock="true"
+ xmlns:f="sap.f"
+ xmlns:l="sap.ui.layout">
 <Page
 	title="{i18n>detailPageTitle}"
 	showNavButton="true"
@@ -14,5 +18,60 @@ xmlns:mvc="sap.ui.core.mvc">
 			>
          </ObjectListItem> 
 		 <Image src="{film>Film}"></Image>
+		 
 </Page>
-</mvc:View>
+</mvc:View> 
+
+
+<!-- >
+ <! <l:Grid defaultSpan="XL2" class="sapUiSmallMargin">
+ <Text text="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum, et saepe deleniti molestiae obcaecati nostrum totam itaque ut similique enim veniam ea nulla! Ipsam, error perspiciatis incidunt nihil tempora ea!">
+ <layoutData>
+ <l:GridData span="XL7" />
+ </layoutData>
+ </Text>
+ <Button text="main" type="Emphasized" width="100%" />
+ <Input />
+ <Button text="1" type="Emphasized" width="100%" />
+ <Button text="2" type="Emphasized" width="100%" />
+ <Button text="3" type="Emphasized" width="100%" />
+ </l:Grid> -->
+ 
+ <!-- <l:Grid defaultSpan="XL2 L3 M6 S12">
+ <Text text="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum, et saepe deleniti molestiae obcaecati nostrum totam itaque ut similique enim veniam ea nulla! Ipsam, error perspiciatis incidunt nihil tempora ea!"></Text>
+ <Button text="main" type="Emphasized" width="100%" />
+ <Input />
+ <Button text="1" type="Emphasized" width="100%" />
+ <Button text="2" type="Emphasized" width="100%" />
+ <Button text="3" type="Emphasized" width="100%" />
+ </l:Grid> -->
+ 
+ <!-- <l:Grid defaultSpan="XL2 L3 M4 S12" vSpacing="2" hSpacing="2" class="sapUiSmallMargin">
+ <Text text="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum, et saepe deleniti molestiae obcaecati nostrum totam itaque ut similique enim veniam ea nulla! Ipsam, error perspiciatis incidunt nihil tempora ea!">
+ <layoutData>
+ <l:GridData span="XL7 M12" />
+ </layoutData>
+ </Text>
+ <Button text="main" type="Emphasized" width="100%">
+ <layoutData>
+ <l:GridData span="XL3 M5" />
+ </layoutData>
+ </Button>
+ <Input>
+ <layoutData>
+ <l:GridData span="XL12 M7" />
+ </layoutData>
+ </Input>
+ <Button text="1" type="Emphasized" width="100%">
+ <layoutData>
+ <l:GridData span="S6" />
+ </layoutData>
+ </Button>
+ <Button text="2" type="Emphasized" width="100%">
+ <layoutData>
+ <l:GridData span="S6" indent="XL4" />
+ </layoutData>
+ </Button>
+ <Button text="3" type="Emphasized" width="100%" />
+ </l:Grid>
+</mvc:View>  -->

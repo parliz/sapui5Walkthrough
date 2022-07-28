@@ -34,10 +34,10 @@ sap.ui.define([
 			// is only called from within the loaded dialog itself.
 			this.byId("helloDialog").close();
 		},
-		// onOpenWindow: function (oEvent) {
-		// 	var oRouter = this.getOwnerComponent().getRouter();
-		// 	oRouter.navTo("detail");
-		// }
+		onOpenWindow: function (oEvent) {
+		 	 var oRouter = this.getOwnerComponent().getRouter();
+			 oRouter.navTo("window");
+		 }
 	});
 
 });

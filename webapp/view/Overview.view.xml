@@ -9,9 +9,11 @@
 				press=".onOpenDialog"/>
 		</headerContent>
 		<content>
-			<!-- <mvc:XMLView viewName="sap.ui.demo.walkthrough.view.HelloPanel"/> -->
 			<mvc:XMLView viewName="sap.ui.demo.walkthrough.view.HelloPanel"/>
 			<mvc:XMLView viewName="sap.ui.demo.walkthrough.view.FilmList"/>
+			
+			<!-- <mvc:XMLView viewName="sap.ui.demo.walkthrough.view.HelloPanel"/> -->
+			
 		</content>
 	</Page>
 </mvc:View>

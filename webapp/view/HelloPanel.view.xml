@@ -11,16 +11,19 @@
 				id="helloDialogButton"
 				icon="sap-icon://action"
 				text="{i18n>openNewWindowButtonText}"
-				press=".onOpenDialoge"
-				class="sapUiSmallMarginEnd"/>
-			<Button
-				text="{i18n>showHelloButtonText}"
-				press=".onShowHello"
-				class="myCustomButton"/>
-			<Input
-				value="{/recipient/name}"
-				valueLiveUpdate="true"
-				width="60%"/>	
+				press=".onOpenWindow"
+				class="sapUiSmallMarginEnd"/>	
 		</content>
 	</Panel>
 </mvc:View>
+<!-- <mvc:View controllerName="sap.ui.demo.walkthrough.controller.HelloPanel" xmlns="sap.m" xmlns:mvc="sap.ui.core.mvc">
+   <List>
+      <items>
+         <ObjectListItem
+            title="{i18n>openNewWindowButtonText}"
+            type="Navigation"
+					press="onPress">
+         </ObjectListItem> 
+      </items>
+   </List>
+</mvc:View> -->

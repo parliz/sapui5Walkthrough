@@ -1,0 +1,50 @@
+<!-- <mvc:View
+controllerName="sap.ui.demo.walkthrough.controller.Window"
+xmlns="sap.m"
+xmlns:mvc="sap.ui.core.mvc">
+<Page
+	title="{i18n>detailPageTitle}"
+	showNavButton="true"
+	navButtonPress=".onNavBack">
+</Page>
+</mvc:View> -->
+
+<mvc:View
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns:core="sap.ui.core"
+    displayBlock="true"
+    xmlns="sap.m"
+    xmlns:f="sap.f"
+    xmlns:l="sap.ui.layout">
+    <!-- <Page
+        showNavButton="true"
+        navButtonPress=".onNavBack">
+    </Page> -->
+    <l:Grid defaultSpan="XL2 L2 S1" vSpacing="2" hSpacing="2"  class="sapUiLargeMarginTopBottom sapUiSmallNegativeMarginBeginEnd">
+        <Text text="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum, et saepe deleniti molestiae obcaecati nostrum totam itaque ut similique enim veniam ea nulla! Ipsam, error perspiciatis incidunt nihil tempora ea!">
+            <layoutData>
+                <l:GridData span="L6 S8"/>
+            </layoutData>
+        </Text>
+        <Button text="Первая" type="Emphasized" width="100%">
+            <layoutData>
+                <l:GridData span="S4" linebreakL="true" linebreakS="true" linebreakXL="false"/>
+            </layoutData>
+        </Button>
+        <Button text="Вторая" type="Emphasized" width="100%">
+            <layoutData>
+                <l:GridData span="S4"  />
+            </layoutData>                
+        </Button>
+        <Button text="Третья" type="Emphasized" width="100%" >
+            <layoutData>
+                <l:GridData span="S4"/>
+            </layoutData>  
+        </Button>
+        <Button text="Главная" type="Emphasized" width="100%">
+            <layoutData>
+                <l:GridData span="XL3 L5 S12" indent="XL1 L1" />
+            </layoutData>
+        </Button>     
+    </l:Grid>
+</mvc:View>
