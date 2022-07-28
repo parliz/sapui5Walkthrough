@@ -11,13 +11,40 @@ xmlns:mvc="sap.ui.core.mvc"
 	showNavButton="true"
 	navButtonPress=".onNavBack">
 	<ObjectHeader
-		intro="{film>FilmId}"
 		title="{film>FilmName}"/>
 		<ObjectListItem 
-			intro="{film>FilmDescription}"			
-			>
+			intro="{film>FilmDescription} {film>film2session/SessionDate}">		
          </ObjectListItem> 
-		 <Image src="{film>Film}"></Image>
+		<IconTabBar
+		id="idIconTabBarInlineMode"
+		headerMode="Inline"
+		expanded="true"
+		class="sapUiResponsiveContentPadding">
+		<items>
+			<IconTabFilter
+				text="Синема 5"
+				key="1">
+				<Text text="Info content goes here ..." />
+			</IconTabFilter>
+			<IconTabFilter
+				text="КИНОМАКС"
+				key="2">
+				<Text text="Attachments go here ..." />
+				<Text text="{film>/film2session/SessionDate}"/>
+			</IconTabFilter>
+			<IconTabFilter
+				text="КАРО"
+				key="3">
+				<Text text="Notes go here ..." />
+			</IconTabFilter>
+		</items>
+	</IconTabBar>
+		 <Carousel class="sapUiContentPadding" loop="true">                  
+			<Image src="filmPosters/{film>FilmId}/film1.jpg"/>
+			<Image src="filmPosters/{film>FilmId}/film2.jpg"/>
+			<Image src="filmPosters/{film>FilmId}/film3.jpg" />
+			<Image src="filmPosters/{film>FilmId}/film4.jpg"/>
+		</Carousel>
 		 
 </Page>
 </mvc:View> 

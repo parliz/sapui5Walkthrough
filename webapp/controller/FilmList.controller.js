@@ -15,21 +15,17 @@ sap.ui.define([
 			});
 			this.getView().setModel(oViewModel, "view");
 		},
-		onFilterInvoices : function (oEvent) {
-
+		onFilterFilms : function (oEvent) {
 			// build filter array
 			var aFilter = [];
 			var sQuery = oEvent.getParameter("query");
 			if (sQuery) {
 				aFilter.push(new Filter("FilmName", FilterOperator.Contains, sQuery));
 			}
-
 			// filter binding
 			var oList = this.byId("filmList");
 			var oBinding = oList.getBinding("items");
-			var aDefaultFilter = oList.getBindingInfo("items").filters;
-            oBinding.filter(aDefaultFilter);
-            //oBinding.filter(aFilter);
+			oBinding.filter(aFilter);			
 		},
 		onPress: function (oEvent) {
 			var oItem = oEvent.getSource();
