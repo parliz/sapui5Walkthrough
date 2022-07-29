@@ -5,15 +5,17 @@ xmlns:mvc="sap.ui.core.mvc"
  xmlns:core="sap.ui.core"
  displayBlock="true"
  xmlns:f="sap.f"
- xmlns:l="sap.ui.layout">
+ xmlns:l="sap.ui.layout"
+ xmlns:wt="sap.ui.demo.walkthrough.control">
 <Page
 	title="{i18n>detailPageTitle}"
 	showNavButton="true"
 	navButtonPress=".onNavBack">
 	<ObjectHeader
 		title="{film>FilmName}"/>
+			<wt:ProductRating id="rating" class="sapUiSmallMarginBeginEnd" />
 		<ObjectListItem 
-			intro="{film>FilmDescription} {film>film2session/SessionDate}">		
+			intro="{film>FilmDescription}">		
          </ObjectListItem> 
 		<IconTabBar
 		id="idIconTabBarInlineMode"
@@ -23,21 +25,26 @@ xmlns:mvc="sap.ui.core.mvc"
 		<items>
 			<IconTabFilter
 				text="Синема 5"
+				
 				key="1">
-				<Text text="Info content goes here ..." />
+				<Text text=" пр-т. Хусаина Ямашева, 46,"></Text>	
+				<Text text="{film>film2session/0/SessionDate}"></Text>
+				<Button text="{film>film2session/1/SessionDate}"></Button>
 			</IconTabFilter>
 			<IconTabFilter
 				text="КИНОМАКС"
 				key="2">
-				<Text text="Attachments go here ..." />
-				<Text text="{film>/film2session/SessionDate}"/>
+				<Text text="пр-т. Ибрагимова, д. 56"></Text>
+				<Text text="{film>film2session}"></Text>				
 			</IconTabFilter>
 			<IconTabFilter
 				text="КАРО"
 				key="3">
-				<Text text="Notes go here ..." />
+				<Text text="ул. Петербургская, 1"></Text>
+				<Text text="{film>film2session}"/>
 			</IconTabFilter>
 		</items>
+	
 	</IconTabBar>
 		 <Carousel class="sapUiContentPadding" loop="true">                  
 			<Image src="filmPosters/{film>FilmId}/film1.jpg"/>
